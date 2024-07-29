@@ -1,0 +1,236 @@
+header {
+	width: 100%;
+	background-color: #333;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.col {
+    margin: 5px;
+    background-color: #bfd1de;
+    border: 2px solid #6ce073;
+    border-radius: 5px;
+}
+
+.btn-success {
+    background-color: #333;
+}
+
+html {
+    height: 90%;
+}
+
+body {
+    background-color: #ceddf5;
+    height: 100%;
+    margin: 0;
+}
+
+body .container {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    background-color: #ebeef0;
+}
+
+header .container {
+    background-color: #333;
+    padding-top: 0px;
+    padding: 0px;
+}
+
+header p {
+    padding-top: 14px;
+    padding-left: 14px;
+    color: white;
+}
+
+footer {
+    padding-top: 8px;
+    padding-bottom: 8px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #333;
+}
+
+footer p {
+    font-size: small;
+    padding-left: 14px;
+    color: white;
+    margin: 0;
+}
+footer .container {
+    background-color: #333;
+    padding: 0px;
+}
+
+h {
+    font-size: larger;
+}
+
+p {
+    font-size: larger;
+}
+
+#nameInputArea {
+	padding-bottom: 200px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal3 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal4 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Apply background color to odd rows of the parent table */
+.parent-table tr:nth-child(odd) {
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Ensure that nested tables and their elements inherit the background color of the parent row */
+.parent-table tr:nth-child(odd) td,
+.parent-table tr:nth-child(odd) table,
+.parent-table tr:nth-child(odd) table tr,
+.parent-table tr:nth-child(odd) table tr td,
+.parent-table tr:nth-child(odd) table td {
+    background-color: inherit;
+}
+
+/* Apply background color to odd rows of the parent table */
+.parent-table tr:nth-child(even) {
+    background-color: white; /* Light gray background */
+}
+
+/* Ensure that nested tables and their elements inherit the background color of the parent row */
+.parent-table tr:nth-child(even) td,
+.parent-table tr:nth-child(even) table,
+.parent-table tr:nth-child(even) table tr,
+.parent-table tr:nth-child(even) table tr td,
+.parent-table tr:nth-child(even) table td {
+    background-color: inherit;
+}
+
+td {
+    text-align: left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    font-size: large;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #157347;
+    text-decoration: none;
+    color: white;
+  }
+
+
+  span {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    border-radius: 30px;
+  }
+  
+  span:hover {
+    background-color: #157347;
+    border-color: #157347;
+  }
+  
